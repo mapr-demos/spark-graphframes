@@ -7,7 +7,7 @@ MapR provides a fast, developer-friendly platform for Spark along with a sandbox
 
 Use the following steps to run these examples on the sandbox (also to be summarized in a forthcoming blog post).
 
-* Download the latest MapR sandbox from [http://mapr.com/sandbox](mapr.com/sandbox). You can also install the MapR Converged Community Edition on a cluster for free at [http://mapr.com/download](mapr.com/download), or start with a pre-existing cluster already running Spark.  
+* Download the latest MapR sandbox from [mapr.com/sandbox](http://mapr.com/sandbox). You can also install the MapR Converged Community Edition on a cluster for free at [mapr.com/download](http://mapr.com/download), or start with a pre-existing cluster already running Spark.  
 
 * After logging in as the 'mapr' user on the sandbox, download the GraphFrames python package. It's also convenient to make a link to the python module to the same directory where you will be submitting the job:
 ```
