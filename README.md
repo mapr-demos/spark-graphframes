@@ -1,5 +1,7 @@
 # Introduction
-This repo contains Python code examples to analyze and search Facebook graph data with the new [GraphFrames](http://graphframes.github.io/) capability in Spark.  The example shows an end-to-end flow for loading, running queries and graph algorithms.  [Consult this blog post](https://www.mapr.com/blog/using-spark-graphframes-analyze-facebook-connections) for more info.
+This repo contains Python code examples to analyze and search Facebook graph data with the new [GraphFrames](http://graphframes.github.io/) capability in Spark.  The example shows an end-to-end flow for loading, running queries and graph algorithms.
+
+[Consult this blog post on mapr.com](https://www.mapr.com/blog/using-spark-graphframes-analyze-facebook-connections) for more info.
 
 MapR provides a fast, developer-friendly platform for Spark along with a sandbox VM that gives you an easy way to start trying some examples with your own data.
 
