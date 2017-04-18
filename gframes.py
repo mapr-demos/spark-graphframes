@@ -47,6 +47,10 @@ def get_feats(vtxid, mapping, feats):
     vtxfeats = []
     for idx, f in enumerate(feats):
         name, value = mapping[idx]
+	# if we already have a value for this feature, skip to
+	# the next one
+	if name in thisfeats and thisfeats[name] != 'None':
+		continue
         if (f == '1'):
             thisfeats[name] = value
         else:
